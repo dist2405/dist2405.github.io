@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>All About Angie!</title>
+	<link rel="stylesheet" href="css/foundation.css">
+</head>
+<body>
+    <div class="off-canvas-wrapper ">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left hide-for-small-only" id="offCanvas" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="vertical menu" style="background-color:rgb(193, 219, 219)" font="color:white">
+                <li><a href="/">Home</a></li>
+                <li><a href="/Projects/">Projects</a></li>
+                <li><a href="/Resume/">Resume</a></li>
+                <li><a href="/Loki/">Loki</a></li>
+                <li><a href="/Fun/">Fun Facts</a></li>
+            </ul>
+           
+        </div>
+        <div class="grid-x grid-padding-x">
+            <button type="button" class="cell large-auto button hide-for-small-only" style="background-color:rgb(65, 122, 122)" data-toggle="offCanvas">More About Me!</button>
+        </div>
+        <!-- Your page content lives here -->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                
+                <div class="grid-x grid-padding-x">
+                    <div class="cell large-6" style="background-color: #e7e9e9" object-fit: cover; width: 100%;">
+                        <center><img src="Headshot.jpg" alt="My headshot" width="100%" height="100%"></center></div>
+                    <div class="cell large-6" style="background-color: #e7e9e9;">
+                        <h4>About Me!</h4>
+                        <p>
+                            Hi I'm Angie!  I am an Actuary Science Major and a Computer Science, Math and Math STAT minor, graduating in December of this year from St Thomas. 
+                            My goal is to obtain a job in Data Analytics.
+                        </p>
+                        <p>
+                            A bit about me, I was in the Marines as a Loadmaster on the C130.  
+                            My job was to ensure the plane flew, by calculating load plans.  
+                            The load plan was done on every flight to ensure the center of gravity on the plane was within a specific range.
+                        </p>
+                         <p>   
+                            As I did my job, I realized that I really loved math and looked for a civilian career where I could use as much math as possible.
+                            I'm excited to be so close to graduation and ready to start my career.
+                        </p>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+<footer class ="hide-for-medium">
+    <div class="grid-x grid-padding-x">
+        <div class="cell hide-for-medium" style="background-color:rgb(154, 140, 190)">
+            <h3>More About Me</h3></div>
+        <div class="cell hide-for-medium" style="background-color:rgb(154, 140, 190)">
+            <a href="/">Home</a></div>  
+        <div class="cell hide-for-medium" style="background-color:rgb(154, 140, 190)">
+            <a href="/Projects/">Projects</a></div> 
+        <div class="cell hide-for-medium" style="background-color:rgb(154, 140, 190)">
+            <a href="/Resume/">Resume</a></div> 
+        <div class="cell hide-for-medium" style="background-color:rgb(154, 140, 190)">
+            <a href="/Loki/">Loki</a></div> 
+        <div class="cell hide-for-medium" style="background-color:rgb(154, 140, 190)">
+            <a href="/Fun/">Fun Facts</a></div>     
+                
+    </div>   
+</footer>    
+</html>
+
