@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Me!</title>
+	<link rel="stylesheet" href="css/foundation.css">
+</head>
+<body>
+    <div class="off-canvas-wrapper ">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left hide-for-small-only" id="offCanvas" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="vertical menu" style="background-color:rgb(193, 219, 219)" font="color:white">
+                <li><a href="/">Home</a></li>
+                <li><a href="/Projects/">Projects</a></li>
+                <li><a href="/Resume/">Resume</a></li>
+                <li><a href="/Loki/">Loki</a></li>
+                <li><a href="/Fun/">Fun Facts</a></li>
+            </ul>
+           
+        </div>
+        <div class="grid-x grid-padding-x">
+            <button type="button" class="cell large-auto button hide-for-small-only" style="background-color:rgb(65, 122, 122)" data-toggle="offCanvas">More About Me!</button>
+        </div>
+        <!-- Your page content lives here -->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+ 
+                
+                <div class="grid-x grid-padding-x">
+                    <div class="cell large-6" style="background-color: #e7e9e9;">
+                        <h5>Hobbies</h5>
+                        <p>
+                            <ul><li>Camping</li>
+                                <li>Reading</li>
+                                <li>Hiking</li>
+                                <li>Traveling</li>
+
+                            </ul>
+                            
+                        </p>
+                    </div>
+                    <div class="cell large-6" style="background-color: #e7e9e9;">
+                        <center><img src="camping.jpeg" alt="Creek in woods" width="200" height="200"></center></div>
+                    <div class="cell large-6" style="background-color: #e7e9e9;">
+                        <h5>Pets</h5>
+                        <p>
+                            <ul><li>Donna</li>
+                                <li>Brenda</li>
+                                <li>Janice</li>
+                            </ul>
+                            
+                        </p>
+                    </div>
+                    <div class="cell large-6" style="background-color: #e7e9e9;">
+                        <center><img src="Donna.png" alt="Donna on perch" width="200" height="200"></center></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+<footer class ="hide-for-medium">
+    <div class="grid-x grid-padding-x">
+        <div class="cell hide-for-medium" style="background-color:rgb(154, 140, 190)">
+            <h3>More About Me</h3></div>
+        <div class="cell hide-for-medium" style="background-color:rgb(154, 140, 190)">
+            <a href="/">Home</a></div>  
+        <div class="cell hide-for-medium" style="background-color:rgb(154, 140, 190)">
+            <a href="/Projects/">Projects</a></div> 
+        <div class="cell hide-for-medium" style="background-color:rgb(154, 140, 190)">
+            <a href="/Resume/">Resume</a></div> 
+        <div class="cell hide-for-medium" style="background-color:rgb(154, 140, 190)">
+            <a href="/Loki/">Loki</a></div> 
+        <div class="cell hide-for-medium" style="background-color:rgb(154, 140, 190)">
+            <a href="/Fun/">Fun Facts</a></div>     
+                
+    </div>   
+</footer>    
+</html>
+
